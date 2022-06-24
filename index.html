@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Search</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    
+</head>
+<body>
+    <!-- <header>
+        
+    </header> -->
+
+    <div class="container">
+        <h1 class="display-4 align-middle mt-5 text-white" >Search Book</h1>        
+    </div>
+
+    <div class="container mt-5 p-3 border-0">
+        <div class="card text-white bg-dark mb-3 float-left shadow-lg" style="max-width: 20rem;">
+            <div class="card-body umum">
+                <h4>Type Book Title below</h4>
+                <input type="text" class="form-control judul" placeholder="Enter the title" id="input"></input>
+                <button class="btn btn-primary mt-2 mb-2" onclick="getirGotur()"> Search
+                    <!-- <i class="fa fa-search"></i> -->
+                </button>
+        </div>
+    </div>
+    <div></div>
+    <div></div>
+    <div class="col-md-12"></div>
+    
+    <center><div class="col-md-12">
+        <div class="row" id="gelenler"></div>
+    </div></center>
+    <script src="js/script.js"></script>
+</body>
+</html>
